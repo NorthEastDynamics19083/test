@@ -1,0 +1,53 @@
+p{
+    font-family: Inter;
+}
+
+.navbar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 80px 20px 80px;
+    background-color: rgb(178, 201, 173);
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navbar-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.button{
+    padding: 7px 10px;
+    background-color: rgb(75, 89, 69);
+    font-family: Inter;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.35s,
+    background-color 0.35s,
+    color 0.35s;
+}
+
+.button:hover{
+    transform: translateY(-3px);
+    background-color: white;
+    color: rgb(75, 89, 69);
+}
+
+.button:active{
+    opacity: 0.4;
+}
+
+
